@@ -1,0 +1,126 @@
+body {
+  background-image: url(./img/Diseño\ sin\ título.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #000000 /* Fondo de la navbar */
+}
+
+
+.navbar-brand {
+  color: #d9d0ac !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: cursive; 
+}
+
+.nav-link {
+  color:#5dba1e !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+.navbar-toggler-icon {
+  background-color: #5dba1e; /* Color del icono del menú hamburguesa */
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;  
+  color: #d9d0ac;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+  animation: example 3s infinite; 
+}
+
+@keyframes example {
+  0% {
+    color: #5dba1e;
+    transform: scale(1);
+  }
+  50% {
+    color: #005300;
+    transform: scale(1.1);
+  }
+  100% {
+    color: #5dba1e;
+    transform: scale(1);
+  }
+  150% {
+    color:#5dba1e;
+    transform: scale(1.1);
+  }
+
+}
+
+
+.text-center {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #d9d0ac;
+}
+
+.profile-info {
+  background-color: #000000;
+  color: #d9d0ac;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border-radius: 10px;
+  animation: scaleUp 2.0s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scaleUp {
+  0% {
+      transform: scale(1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+      transform: scale(1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.profile-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.tech-icons img {
+  width: 60px; /* Ajusta el tamaño de los iconos */
+  height: auto; /* Mantiene la proporción de aspecto */
+  margin: 5px; /* Espaciado entre iconos */
+  vertical-align: middle; /* Alinea verticalmente */
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.col-md-8 {
+  color: #d9d0ac;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.col-md-6 {
+  color: #d9d0ac;
+}
