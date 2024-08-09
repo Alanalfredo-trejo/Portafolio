@@ -14,3 +14,12 @@ document.querySelector("form").addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent form submission
   }
 });
+
+document.addEventListener('mousemove', (e) => {
+  const emoji = document.querySelector('.emoji');
+  emoji.style.position = 'absolute';
+  emoji.style.left = `${e.clientX + 10}px`;
+  emoji.style.top = `${e.clientY + 10}px`;
+});
+
+AOS.init();

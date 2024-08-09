@@ -10,11 +10,13 @@
     <link href="./style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- AOS JS -->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
 </head>
 
 <body>
+    <div class="emoji-container">
+        <span class="emoji">💡</span>
+    </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg ">
         <a class="navbar-brand" href="#">
@@ -54,7 +56,7 @@
             <div class="col-md-4">
                 <div class="profile-info">
                     <img src="./img/Foto AlanT.jpeg" alt="Foto de perfil" />
-                    <h3>Trejo García Alan Alfredo</h3>
+                    <h3 style="font-family: 'Times New Roman', Times, serif;">Trejo García Alan Alfredo</h3>
                     <p>Desarrollador Java Full Stack Jr.</p>
                     <p>
                         <strong>Habilidades:</strong> HTML, CSS, JavaScript, MySQL, Java, SpringBoot,
@@ -73,42 +75,42 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <h2>Sobre mí</h2>
+                <h2><u>Sobre mí</u></h2>
+                <br>
                 <p>
                   Hola, soy Alan Trejo, desarrollador Java FullStack Jr.
-                  Soy un apasionado del desarrollo web con conocimientos en Java y tecnologías FullStack. Cuento con habilidades técnicas y blandas, que he aplicado a mis proyectos. 
-                  Me destaco por mi capacidad para trabajar en equipo y enfrentar desafíos con entusiasmo. Estoy comprometido con el crecimiento profesional continuo y con la aportación significativa a los proyectos en los que participo.
-                  Estoy emocionado por las oportunidades futuras y estoy dispuesto a contribuir al éxito de los proyectos en los que me involucre.
+                  Soy un apasionado del desarrollo web con conocimientos en Java y tecnologías FullStack. Cuento con habilidades técnicas y blandas, que he aplicado a mis proyectos.</p>
+                  <p>Me destaco por mi capacidad para trabajar en equipo y enfrentar desafíos con entusiasmo. Estoy comprometido con el crecimiento profesional continuo y con la aportación significativa a los proyectos en los que participo.</p>
+                  <p> Estoy emocionado por las oportunidades futuras y estoy dispuesto a contribuir al éxito de los proyectos en los que me involucre.
                   Puedes revisar mis proyectos y contribuciones.
                 </p>
-
+                <br>
+                <div class="text-center">
+                    <img src="https://media2.giphy.com/media/XlXznQJXoO6UII79QK/giphy.webp?cid=790b7611c0b6n207kxb6qh116flkhndl7ycnmy0q7bvqrmzy&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="Herramientas" class="emoji-img" id="telaraña"/>
+                    <img src="https://media2.giphy.com/media/3o85xHnflvkLwi2nQY/200.webp?cid=ecf05e472saag9qi9infl8q4h3gwcr99xu9xeucosmsy5uca&ep=v1_gifs_search&rid=200.webp&ct=g" alt="Herramientas" class="emoji-img">    
+                </div>
             </div>
         </div>
 
         <!-- Projects Section -->
         <div id="projects" class="section">
             <h2 class="text-center"><strong>Proyectos</strong></h2>
+            <br>
             <div id="projectCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Proyecto 1" />
+                        <img src="./img/Colash Delhaz.jpg" class="d-block w-100" alt="Proyecto 1" />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Red Social</h5>
-                            <p>Una red social desarrollada utilizando React y SpringBoot.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Proyecto 2" />
+                        <img src="./img/Captura de pantalla 2024-08-08 162925.png" class="d-block w-100" alt="Proyecto 2" />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Ejercicios JavaScript</h5>
-                            <p>Ejercicios interactivos desarrollados con JavaScript.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Proyecto 3" />
+                        <img src="./img/Colash.jpg" class="d-block w-100" alt="Proyecto 3" />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Proyecto Personal "X"</h5>
-                            <p>Descripción del proyecto personal "X".</p>
                         </div>
                     </div>
                 </div>
@@ -128,17 +130,18 @@
 
         <!-- Services Section -->
         <div id="services" class="section">
-            <h2 class="text-center"><strong>Servicios</strong></h2>
+            <h2 class="text-center" data-aos="fade-up"><strong>Servicios</strong></h2>
+            <br>
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
                     <h4>Desarrollo Web</h4>
                     <p>Creación de sitios web interactivos y responsivos.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
                     <h4>Consultoría UX/UI</h4>
                     <p>Optimización de la experiencia del usuario y diseño de interfaces.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="300">
                     <h4>Desarrollo de Aplicaciones</h4>
                     <p>Desarrollo de aplicaciones utilizando tecnologías modernas.</p>
                 </div>
@@ -148,9 +151,10 @@
         <!-- Contact Section -->
         <div id="contact" class="section">
             <h2 class="text-center"><strong>Contacto</strong></h2>
+            <br>
             <div class="row">
                 <div class="col-md-6">
-                    <form>
+                    <form action="process-form.php" method="POST">
                         <div class="form-group">
                             <label for="name">Nombre</label>
                             <input type="text" class="form-control" id="name" placeholder="Tu nombre" required />
@@ -184,12 +188,13 @@
         <p>&copy; 2024 Trejo García Alan Alfredo. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Custom JS -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
     <script src="./main.js"></script>
 </body>
 </html>
