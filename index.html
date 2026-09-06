@@ -14,10 +14,13 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
     <div class="emoji-container">
         <span class="emoji">💡</span>
     </div>
     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light"></nav>
     <nav class="navbar navbar-expand-lg ">
         <a class="navbar-brand" href="#">
             <strong>Alan Alfredo Trejo García</strong>
@@ -43,23 +46,23 @@
             </ul>
         </div>
     </nav>
-
+    </header>
     <!-- Main Content -->
-    <div class="container">
+    <main class="container">
         <!-- Home Section -->
-        <div id="home" class="section text-center">
+        <section id="home" class="section text-center">
             <h1>Desarrollador Java FullStack Jr.</h1>
-        </div>
+        </section>
 
         <!-- About Section -->
-        <div id="about" class="section row">
+        <section id="about" class="section row">
             <div class="col-md-4">
                 <div class="profile-info">
                     <img src="./img/Foto AlanT.jpeg" alt="Foto de perfil" />
                     <h3 style="font-family: 'Times New Roman', Times, serif;">Trejo García Alan Alfredo</h3>
                     <p>Desarrollador Java Full Stack Jr.</p>
                     <p>
-                        <strong>Habilidades:</strong> HTML, CSS, JavaScript, MySQL, Java, SpringBoot,
+                        <strong>Habilidades:</strong> HTML, CSS, JavaScript, SQL, Java, SpringBoot,
                         React, Diseño UX/UI
                     </p>
                     <!-- Insert technology logos -->
@@ -90,10 +93,10 @@
                     <img src="https://media2.giphy.com/media/3o85xHnflvkLwi2nQY/200.webp?cid=ecf05e472saag9qi9infl8q4h3gwcr99xu9xeucosmsy5uca&ep=v1_gifs_search&rid=200.webp&ct=g" alt="Herramientas" class="emoji-img">    
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Projects Section -->
-        <div id="projects" class="section">
+        <section id="projects" class="section">
             <h2 class="text-center"><strong>Proyectos</strong></h2>
             <br>
             <div id="projectCarousel" class="carousel slide" data-ride="carousel">
@@ -126,10 +129,10 @@
             <div class="text-center mt-3">
                 <a href="https://github.com/Alanalfredo-trejo" class="btn btn-primary">Ver más en GitHub</a>
             </div>
-        </div>
+        </section>
 
         <!-- Services Section -->
-        <div id="services" class="section">
+        <section id="services" class="section">
             <h2 class="text-center" data-aos="fade-up"><strong>Servicios</strong></h2>
             <br>
             <div class="row">
@@ -146,10 +149,10 @@
                     <p>Desarrollo de aplicaciones utilizando tecnologías modernas.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Contact Section -->
-        <div id="contact" class="section">
+        <section id="contact" class="section">
             <h2 class="text-center"><strong>Contacto</strong></h2>
             <br>
             <div class="row">
@@ -157,15 +160,15 @@
                     <form action="process-form.php" method="POST">
                         <div class="form-group">
                             <label for="name">Nombre</label>
-                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required />
+                            <input type="text" class="form-control" id="name" name = "name" placeholder="Tu nombre" required />
                         </div>
                         <div class="form-group">
                             <label for="email">Correo electrónico</label>
-                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required />
+                            <input type="email" class="form-control" id="email" name = "email" placeholder="Tu correo electrónico" required />
                         </div>
                         <div class="form-group">
                             <label for="message">Mensaje</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje" required></textarea>
+                            <textarea class="form-control" id="message" name = "message" rows="4" placeholder="Tu mensaje" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
@@ -180,12 +183,12 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="text-center">
-        <p>&copy; 2024 Trejo García Alan Alfredo. Todos los derechos reservados.</p>
+        <p>&copy; 2026 Trejo García Alan Alfredo. Todos los derechos reservados.</p>
     </footer>
 
    
